@@ -1,0 +1,4 @@
+variable, expected_value, action_true, action_true_confirm, action_true_confirm_text, action_true_info, action_false, action_false_confirm, action_false_confirm_text, action_false_info
+
+Port, 22, None, None, None, You have set Port to 22, alterStandardValue, y, default, You have set Port to {} which is potentially a risk
+LogLevel, INFO, None, None, None, You have set LogLevel to INFO, changeLogLevel, y, Do you want to change the value to {}? (Enter yes/no) :, You have set LogLevel to {} which is potentially a risk
