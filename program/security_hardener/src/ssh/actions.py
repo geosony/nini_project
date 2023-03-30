@@ -46,7 +46,6 @@ def commit(changes):
 def restart():
     import subprocess
     cmd = context_config["ssh"]["restart_cmd"].split(" ")
-    print(cmd)
     subprocess.call(cmd)
     return True
 
